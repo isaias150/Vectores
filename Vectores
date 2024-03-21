@@ -1,0 +1,52 @@
+# 1. Declarar una lista vacía
+lista_vacia = []
+
+# 2. Declarar una lista con más de 5 elementos
+lista_mas_cinco = [1, 2, 3, 4, 5, 6]
+
+# 3. Encuentre la longitud de su lista
+longitud_lista = len(lista_mas_cinco)
+
+# 4. Obtener el primer elemento, el elemento central y el último elemento de la lista
+primer_elemento = lista_mas_cinco[0]
+elemento_central = lista_mas_cinco[len(lista_mas_cinco)//2]
+ultimo_elemento = lista_mas_cinco[-1]
+
+# 5. Declara una lista llamada tipos_datos_mezclados
+tipos_datos_mezclados = ['Gabriel', 25, 1.75, 'Soltero', '123 carrera principal']
+
+# 6. Declare una variable de lista llamada it_companies
+it_companies = ['facebook', 'google', 'microsoft', 'apple', 'IBM', 'oracle', 'amazon']
+
+# 7. Añadir una empresa de TI a it_companies utilizando los métodos de inserción
+it_companies.append('Nvidia')  # Por ejemplo, añadiendo Nvidia
+
+# 8. Comprobar si una determinada empresa existe en la lista it_companies
+empresa_existente = 'Microsoft' in it_companies
+
+# 9. Ordena la lista con el método sort()
+it_companies.sort()
+
+# 10. Invierte la lista en orden descendente utilizando el método reverse()
+it_companies.reverse()
+
+# 11. Elimine la primera empresa informática de la lista
+primer_empresa = it_companies.pop(0)
+
+# 12. Eliminar todas las empresas de TI de la lista
+it_companies.clear()
+
+# Imprimir los resultados
+print("Lista vacía:", lista_vacia)
+print("Lista con más de 5 elementos:", lista_mas_cinco)
+print("Longitud de la lista:", longitud_lista)
+print("Primer elemento de la lista:", primer_elemento)
+print("Elemento central de la lista:", elemento_central)
+print("Último elemento de la lista:", ultimo_elemento)
+print("Lista de tipos de datos mezclados:", tipos_datos_mezclados)
+print("Lista de empresas de TI:", it_companies)
+print("¿Microsoft existe en la lista de empresas de TI?", empresa_existente)
+print("Lista de empresas de TI ordenada alfabéticamente:", it_companies)
+print("Lista de empresas de TI en orden descendente:", it_companies)
+print("Primera empresa eliminada:", primer_empresa)
+print("Lista de empresas de TI después de eliminar todas:", it_companies)
